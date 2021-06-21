@@ -39,8 +39,14 @@
 }
 
 @media screen and (max-width: 768px) {
+	body.active {
+		overflow-y: hidden;
+		overflow-x: hidden;
+	}
 	.navbar_link {
-		display: none;
+		display: flex;
+		align-items: center;
+		justify-content: center;
 	}
 
 	.navbar_menu {
