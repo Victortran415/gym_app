@@ -258,3 +258,48 @@
 		margin-bottom: 2rem;
 	}
 }
+
+/* perks Section */
+.gym_perks {
+	padding: 8rem calc((100vw - 1100px) / 2);
+}
+
+.perks_wrapper {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(auto, 350px);
+}
+
+.team_card {
+	margin: 1rem;
+	border-radius: 10px;
+	position: relative;
+}
+
+.perks_text {
+	padding: 1rem;
+}
+
+.perks_text h1 {
+	margin-bottom: 1rem;
+	font-size: 3rem;
+}
+
+.perks_desc {
+	font-size: clamp(1rem, 3vw, 3rem);
+	line-height: 1.4;
+}
+
+.team_card p {
+	position: absolute;
+	bottom: 30px;
+	color: var(--white);
+	left: 25px;
+	font-size: 3rem;
+}
+
+.team_img {
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+}
