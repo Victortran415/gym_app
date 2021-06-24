@@ -339,7 +339,7 @@
 	grid-column: 2/3;
 }
 
-
+/* trainer */
 .trainer {
 	background: var(--black);
 	color: var(--white);
@@ -350,6 +350,15 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-template-rows: repeat(auto, 350px);
+}
+
+.trainer_text {
+	padding: 1rem
+}
+
+.trainer_text h1 {
+	margin-bottom: 1rem;
+	font-size: 2rem
 }
 
 .team_card {
