@@ -33,3 +33,11 @@ gsap.from(".animate_img", {
 	opacity: 0,
 	x: -200,
 });
+gsap.from(".animate_email", {
+	scrollTrigger: ".animate_email",
+	duration: 0.8,
+	opacity: 0,
+    y: -150,
+    stagger: 0.25,
+    delay: 1
+});
